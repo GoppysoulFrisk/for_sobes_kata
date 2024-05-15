@@ -16,7 +16,7 @@ public class ВернутьЧислоСимволовВСтроке {
         System.out.println("Введите символ: ");
         String symbol = console.nextLine().toLowerCase();
         char b = symbol.charAt(0);
-        System.out.println("Вот столько символов" + b + "в строке: " + num(text, b));
+        System.out.println("Вот столько символов " + b + " в строке: " + num(text, b));
 
         console.close();
     }
