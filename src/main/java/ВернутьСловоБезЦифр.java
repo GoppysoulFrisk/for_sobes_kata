@@ -4,6 +4,7 @@ public class ВернутьСловоБезЦифр {
     /*
      * - public static String result (String text)
      */
+    //todo Потом можно проверить через метод isDigit, который проверяет, не является ли символ числом
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
 
@@ -27,6 +28,7 @@ public class ВернутьСловоБезЦифр {
 
             }
         }
+        text = text.replaceAll("\u0000","");
         return text;
     }
 }
